@@ -8,13 +8,13 @@
 <?php
 
 // Loading config
-include('./cfg/config.php');
+require('./cfg/config.php');
 
 // Loading internal config
-include('./cfg/interncfg.php');
+require('./cfg/interncfg.php');
 
 // Loading site config
-include('./cfg/sitecfg.php');
+require('./cfg/sitecfg.php');
 
 
 /*
