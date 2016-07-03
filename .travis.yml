@@ -9,10 +9,11 @@ php:
   - nightly
 script: php index.php
 script: zip -r -g EasyPHPStart-built.zip *
-script: git add EasyPHPStart-built.zip
+
 notifications:                                                                                                                         
   slack:                                                                                                                               
     secure: fUTe842d1+diCqKqdY7KcN22/BpQEcV2FG4K08+l9H0v+kRLvSZYGKP07jTDODVt10UOEmgRCr8Q15qSDyDMNpz5Z7wmRQ9grGQd8DD7n4VxNV2JAT4QssZL8nJqj5lHKJyR8OLS73U/A7kTc5LLYs2yYlCwr5+62+H5s4xVQ4NDZagx+1p5wYQ9gYmnYWM0Jvkjx67mg5wEruzt2dRXE96iMSAPSMmy6DZTENG/X2jap88hgNw5CLuBL4Lk02OJ32N/ujzjcUqNhHn8UJ9EGp2g4//226s1tOoiXsxIjGoCm+fY7iATsJD9rvJw5aUgV4WJeQ49HmCZ3LMpBeECQNNes53XLP4y+JSN8/cjif6iSXyqnzhZOQl4njjeB4JmKur45KiBjOUKIinOUVHYbuRA6j9U7LvmebKn83K2EyA1PRL4UXIIGk7bO738XygEalTAcdFfnUXLsINxFtKS9fJDbJ9ijD3hAxzKAtAM452cU/Uj5jw2bSp2C37TfspO6bXatyrgxCo7Qs4pim4CmFm3VMciX6UzDlOZhgve2eScK0FnEVYTG2M6Qg6oa+nuNZPjL7sYns0g4iFXLcRRUy8e5cOx1txuKImtHCAh43ZqZWNp/0gv4D7XA454ulRpTcm/yzPVZDJ0gCFwmBXxJuaEBG1xA7Ow7bxSbS/DTsE=
+before_deploy: git add EasyPHPStart-built.zip
 deploy:
   provider: releases
   api_key:
