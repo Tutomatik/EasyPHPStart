@@ -22,9 +22,8 @@ include('./cfg/sitecfg.php');
 - Open Head tag
 - Change HTML langage and charset.
 */
-utf8_interncfg = true;
 ?>
-<html lang="<?php echo(lang_cfg); ?>">
+<html lang="<?php echo(lang_sitecfg); ?>">
 <head>
   <meta http-equiv="Content-Type" content="text/html;charset=utf-8"> 
 <?php
