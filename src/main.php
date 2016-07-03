@@ -20,16 +20,13 @@ include('./cfg/sitecfg.php');
 /*
 - Open HTML tag
 - Open Head tag
-- Change HTML langage and charset depending on language.
+- Change HTML langage and charset.
 */
-
-if(lang_cfg = 'en' OR lang_cfg = 'fr' OR lang_cfg = 'es') {
 utf8_interncfg = true;
-}
 ?>
 <html lang="<?php echo(lang_cfg); ?>">
 <head>
-  <meta http-equiv="Content-Type" content="text/html;charset=<?php echo(utf8_interncfg); ?>"> 
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8"> 
 <?php
 // SEO things and page name.
 ?>
