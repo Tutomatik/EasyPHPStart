@@ -34,7 +34,7 @@ include('./cfg/sitecfg.php');
 <meta name="description" content="<?php echo(description_pagecfg . " ~ " description_sitecfg?>" />
 <meta name="keywords" content="<?php echo(keywords_pagecfg . ", " keywords_sitecfg); ?>" />
 <?php if(sayauthor_sitecfg = "true") { ?>
-<meta name="author" content="<?php echo(author_sitecfg);?>" />
+<meta name="author" content="<?php echo(author_pagecfg);?>" />
 <?php } ?>
 <meta name="generator" content="<?php echo(gensoft_intercfg . genver_interncfg); ?>" />
 
