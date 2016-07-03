@@ -7,8 +7,6 @@
 
 <?php
 
-// Loading config
-require('cfg/config.php');
 
 // Loading internal config
 require('cfg/interncfg.php');
