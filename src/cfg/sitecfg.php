@@ -24,10 +24,11 @@ Exemple:
 */
 $keywords_sitecfg = "keyword, site, foo, bar, all, your, base, are, belong, to, us";
 
-/* Turn this to "true" if you want to show your name in search engines, set to "false" if you don't want.
-You must set author's name in each page. 
-*/
+/* Turn this to "true" if you want to show your name in search engines, set to "false" if you don't want. */
 $sayauthor_sitecfg = "true";
+
+/* Enter author name */
+$author_sitecfg = "Foo Bar";
 
 # Indev.
 ?>
