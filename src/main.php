@@ -8,13 +8,13 @@
 <?php
 
 // Loading config
-require('./cfg/config.php');
+require('cfg/config.php');
 
 // Loading internal config
-require('./cfg/interncfg.php');
+require('cfg/interncfg.php');
 
 // Loading site config
-require('./cfg/sitecfg.php');
+require('cfg/sitecfg.php');
 
 
 /*
@@ -31,8 +31,8 @@ require('./cfg/sitecfg.php');
 ?>
 
 
-<meta name="description" content="<?php echo(description_pagecfg . " ~ " description_sitecfg); ?>" />
-<meta name="keywords" content="<?php echo(keywords_pagecfg . ", " keywords_sitecfg); ?>" />
+<meta name="description" content="<?php echo(description_pagecfg . " ~ " . description_sitecfg); ?>" />
+<meta name="keywords" content="<?php echo(keywords_pagecfg . ", " . keywords_sitecfg); ?>" />
 <?php if(sayauthor_sitecfg = "true") { ?>
 <meta name="author" content="<?php echo(author_pagecfg); ?>" />
 <?php } ?>
